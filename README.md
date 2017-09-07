@@ -2,15 +2,37 @@
 -------------------
 
 本项目本着学习react的目的编写，逻辑比较混乱，因为初学。
+
+
+----------
+
+
  **本项目使用的技术有 :**
+
+
+
+----------
+
+
  ***(前端)***
  react、react-router4X、redux、redux-thunk、react-router-redux、
  sass
  **ui框架有：**
  antd
- 
+
+
+
+----------
+
+
  ***(后台)***
  node、express、mongoose
+
+
+
+----------
+
+
  **使用方法**
  
  1. 先下载simple-notebook、simple-notebook-node两个文件
