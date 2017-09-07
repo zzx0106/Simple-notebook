@@ -14,11 +14,25 @@
 ----------
 
 
- ***(前端)***
- react、react-router4X、redux、redux-thunk、react-router-redux、
- sass
- **ui框架有：**
- antd
+ **前端框架**
+
+
+ - react
+ - react-router4X
+ - redux
+ - redux-thunk
+ - react-router-redux
+ - sass
+
+
+----------
+
+
+**ui框架**
+
+
+ - antd
+
 
 
 
@@ -26,7 +40,13 @@
 
 
  ***(后台)***
- node、express、mongoose
+
+
+ - node
+ - express
+ - mongoose
+
+
 
 
 
