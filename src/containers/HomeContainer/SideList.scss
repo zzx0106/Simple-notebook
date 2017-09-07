@@ -1,0 +1,109 @@
+.SideList {
+  width: 350px;
+  background: #ccc;
+  position: relative;
+  overflow: auto;
+  padding-top: 85px;
+  .ant-tag {
+    width: calc(20% - 26px);
+    margin: 7px;
+    text-align: center;
+  }
+  .affix {
+    position: fixed;
+    top: 0px;
+    width: 350px;
+    background: #2a2a2a;
+    .communityLogin {
+      height: 48px;
+      display: flex;
+      align-items: center;
+    }
+    .login-buttons {
+      display: flex;
+      margin-left: 20px;
+      .lg-box {
+        background: #ccc;
+        overflow: hidden;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        cursor: pointer;
+        .login-svg {
+          width: 25px;
+          height: 25px;
+          margin-top: 50%;
+          margin-left: 50%;
+          transform: translate3d(-50%, -50%, 0);
+        }
+      }
+    }
+  }
+  .item-list {
+    height: 55px;
+    display: flex;
+    background: #fff;
+    margin-bottom: 3px;
+    padding: 10px;
+    box-sizing: initial;
+    cursor: pointer;
+    .left-box {
+      width: 55px;
+      height: 55px;
+    }
+    .right-box {
+      flex: 1;
+      padding-left: 10px;
+      .title {
+        width: 260px;
+        font-size: 14px;
+        vertical-align: top;
+        height: 30px;
+        line-height: 15px;
+        color: #222;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+      }
+      .item-body {
+        display: flex;
+        height: 12px;
+        .istop {
+          flex: 20px;
+          line-height: 12px;
+          display: none;
+        }
+        .showtop {
+          flex: 20px;
+          line-height: 12px;
+          background: #41b883;
+          color: white;
+          display: inline-block;
+        }
+        .create-at {
+          flex: 1;
+          line-height: 12px;
+          font-size: 12px;
+          color: #999;
+        }
+      }
+      .item-footer {
+        display: flex;
+        height: 12px;
+        font-size: 12px;
+        color: #999;
+        .author-name {
+          flex: 1;
+        }
+        .visit-count {
+          flex: 1;
+        }
+        .reply-count {
+          flex: 1;
+        }
+      }
+    }
+  }
+}

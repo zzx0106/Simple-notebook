@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <base target="_blank" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .top-box,
+    body,
+    html {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      position: relative;
+    }
+
+
+    .clearfix:after {
+      content: '.';
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+
+    .clearfix {
+      zoom: 1;
+    }
+
+    .float-l {
+      float: left;
+    }
+
+    .float-r {
+      float: right;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .ant-spin {
+      position: absolute !important;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+    /*弹出框start-----*/
+
+    .vertical-center-modal {
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .vertical-center-modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      width: 0;
+    }
+
+    .vertical-center-modal .ant-modal {
+      display: inline-block;
+      vertical-align: middle;
+      top: 0;
+      text-align: left;
+    }
+    /* Use flex which not working in IE */
+
+    .vertical-center-modal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .vertical-center-modal .ant-modal {
+      top: 0;
+    }
+    /*弹出框end-----*/
+    /* 滚动条 */
+    /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+     ::-webkit-scrollbar {
+      /* width: 6px; */
+      width: 2px;
+      height: 2px;
+      background-color: #F5F5F5;
+    }
+    /*定义滚动条轨道 内阴影+圆角*/
+
+     ::-webkit-scrollbar-track {
+      /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+      border-radius: 10px;
+      background-color: #F5F5F5;
+    }
+    /*定义滑块 内阴影+圆角*/
+
+     ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+      background-color: #555;
+    }
+  </style>
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+</head>
+
+<body>
+  <div id="root" class="top-box"></div>
+  <script src="//at.alicdn.com/t/font_379648_gn2t09bz1i2dfgvi.js"></script>
+</body>
+
+</html>

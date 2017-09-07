@@ -1,0 +1,19 @@
+.PersonSideBar {
+  width: 45px;
+  background: #2a2a2a;
+  position: fixed;
+  .icon {
+    flex: 1;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 20px auto 20px auto;
+    fill: #fff;
+    overflow: hidden;
+    transition: 0.1s ease;
+  }
+  .icon-active {
+    width: 40px;
+    height: 40px;
+  }
+}

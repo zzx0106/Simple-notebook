@@ -1,0 +1,24 @@
+.RightSideBar {
+    //   background: #2a2a2a;
+    background: #fff;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, .35);
+    transition: cubic-bezier(.79, -0.37, .31, 1.64) 0.5s;
+    .rsb-menu {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 15px;
+        left: -50px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .rsb-menu:hover {
+        fill: #369;
+        transform: rotate3d(0, 0, 1, 90deg); // transform: rotateZ(90deg);
+    }
+}

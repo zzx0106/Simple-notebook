@@ -1,0 +1,53 @@
+.comment-list {
+    .comments-box {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .sub-comments {
+            flex: 1;
+            text-align: left;
+            line-height: 28px;
+            font-size: 15px;
+            font-family: unset;
+        }
+        .dropdown {}
+    }
+    .list {
+        display: flex;
+        margin-bottom: 10px;
+        border-top: 1px solid #9c9c9c;
+        padding-top: 10px;
+        .left-box {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .middle-box {
+            flex: 1;
+            padding-left: 20px;
+            .loginName {
+                font-size: 20px;
+            }
+            .create-at {
+                font-size: 12px;
+                color: #9c9c9c;
+            }
+        }
+        .right-box {
+            width: 50px;
+            height: 50px;
+            .ups {
+                width: 15px;
+                height: 15px;
+                display: inline-block;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            .upsnum {
+                font-size: 18px;
+                display: inline-block;
+            }
+        }
+    }
+}

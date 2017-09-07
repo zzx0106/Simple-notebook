@@ -1,0 +1,121 @@
+.ShowBody {
+    margin-left: 345px;
+    padding-left: 20px;
+    overflow: auto;
+    .showbody-header {
+        margin-bottom: 20px;
+        .title {
+            font-size: 30px;
+        }
+        .istop {
+            visibility: hidden;
+            height: 30px;
+            width: 30px;
+            background: green;
+            line-height: 30px;
+            text-align: center;
+            color: #fff;
+            border-radius: 20%;
+        }
+        .showtop {
+            visibility: visible;
+        }
+        .msg {
+            display: flex;
+            font-size: 15px;
+            color: #9c9c9c;
+            div {
+                margin-right: 20px;
+            }
+        }
+    }
+    hr {
+        color: #9c9c9c;
+        margin-bottom: 20px;
+    }
+    .content {
+        .markdown-text {
+            pre {
+                background: #fee9cc;
+                border: 1px dashed #ccc;
+                line-height: 22px;
+            }
+            pre {
+                display: block;
+                padding: 9.5px;
+                margin: 0 0 10px;
+                font-size: 13px;
+                line-height: 20px;
+                word-break: break-all;
+                word-wrap: break-word;
+                white-space: pre;
+                white-space: pre-wrap;
+                background-color: #f5f5f5;
+                border: 1px solid #ccc;
+                border: 1px solid rgba(0, 0, 0, .15);
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                code {
+                    padding: 0;
+                    color: inherit;
+                    white-space: pre;
+                    white-space: pre-wrap;
+                    background-color: transparent;
+                    border: 0;
+                    border-radius: 3px;
+                    font-size: 12px;
+                }
+            }
+            li {
+                line-height: 2em;
+                font-size: 14px;
+            }
+            h2 {
+                font-size: 26px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 1.7em;
+                overflow: auto;
+            }
+            strong {
+                font-weight: 700;
+            }
+            ol,
+            ul {
+                padding: 0;
+                margin: 0 0 10px 25px;
+            }
+            a {
+                color: #08c;
+            }
+            ul {
+                li {
+                    list-style-type: disc;
+                }
+            }
+            ol {
+                li {
+                    list-style-type: decimal;
+                }
+            }
+            img {
+                display: block;
+                height: auto;
+                max-width: 100%;
+                vertical-align: middle;
+                border: 0;
+            }
+            div pre.prettyprint {
+                font-size: 14px;
+                border-radius: 0;
+                padding: 0 15px;
+                border: 0;
+                margin: 20px -10px;
+                border-width: 1px 0;
+                background: #f7f7f7;
+            } 
+        }
+    }
+}
